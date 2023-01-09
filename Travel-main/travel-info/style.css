@@ -1,0 +1,364 @@
+@charset "UTF-8";
+.ticketRezervation form {
+  border: 1px solid gray;
+  padding: 3rem 2rem;
+  background-color: rgb(241, 242, 248);
+}
+.ticketRezervation .dropdown .dropdown-menu {
+  background-color: rgb(31, 148, 183);
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 6px 5px rgba(192, 217, 255, 0);
+}
+.ticketRezervation .dropdown .dropdown-menu li a {
+  color: white;
+}
+.ticketRezervation .dropdown .dropdown-menu li a:hover {
+  color: black;
+}
+.ticketRezervation .dropdown button {
+  margin-bottom: 8rem;
+  color: white;
+  background-color: rgb(31, 148, 183);
+  border-color: rgb(31, 148, 183);
+  font-size: 18px;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 6px 5px rgba(192, 217, 255, 0);
+}
+.ticketRezervation .ticketInfo {
+  margin: 2rem 0;
+}
+.ticketRezervation .ticketInfo .ticketLogo {
+  margin-bottom: 1rem;
+}
+.ticketRezervation .ticketInfo .ticket {
+  border: 1px solid #1f94b7;
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+.ticketRezervation .ticketInfo .ticket .openElement svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 20px;
+}
+.ticketRezervation .ticketInfo .luggage img {
+  width: 20px;
+}
+.ticketRezervation .ticketInfo .city {
+  padding: 0 2rem;
+  text-align: center;
+}
+.ticketRezervation .ticketInfo .city p {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+}
+.ticketRezervation .ticket::before {
+  content: "";
+  position: absolute;
+  right: 150px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  background-color: white;
+  transform: rotate(225deg);
+  top: -8px;
+  border-top-color: #1f94b7;
+  border-left-color: #1f94b7;
+}
+.ticketRezervation .ticket::after {
+  content: "";
+  position: absolute;
+  right: 150px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  background-color: white;
+  transform: rotate(46deg);
+  bottom: -8px;
+  border-top-color: #1f94b7;
+  border-left-color: #1f94b7;
+}
+.ticketRezervation .hourDetails {
+  margin-top: 1rem;
+}
+.ticketRezervation .hourDetails .hour {
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+  color: #1f94b7;
+  margin: 0 5px;
+  letter-spacing: 1px;
+}
+.ticketRezervation .hourDetails .hour .direct {
+  position: absolute;
+  font-size: 14px;
+  top: 25px;
+  left: 14px;
+  color: #aded5a;
+}
+.ticketRezervation .hourDetails .hour::after {
+  content: "";
+  border-bottom: 1px solid #1f94b7;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+}
+.ticketRezervation .hourDetails .direct {
+  position: absolute;
+  font-size: 14px;
+  top: 18px;
+  left: 40px;
+  color: #aded5a;
+}
+.ticketRezervation .collapseBody .card-body {
+  background-color: rgb(239, 242, 250);
+  padding: 2rem;
+}
+.ticketRezervation .collapseBody .card-body .flight_time {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ticketRezervation .collapseBody .card-body .flight_time .vl_line {
+  width: 2px;
+  height: 42px;
+  background-color: #aeaeae;
+  margin: 0 2rem;
+  position: relative;
+}
+.ticketRezervation .collapseBody .card-body .flight_time .vl_line::before {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+}
+.ticketRezervation .collapseBody .card-body .flight_time .vl_line::after {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  bottom: -8px;
+  left: -3px;
+}
+.ticketRezervation .collapseBody .card-body .flight_time .flight_address p {
+  word-spacing: 10px;
+  margin-bottom: 0;
+}
+.ticketRezervation .collapseBody .card-body .airportInfo {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: red;
+  margin-bottom: 2rem;
+}
+.ticketRezervation .collapseBody .card-body .arrive_date {
+  margin-top: 2rem;
+  word-spacing: 5px;
+}
+.ticketRezervation .collapseBody .card-body .arrive_date .line {
+  margin: 0 1rem;
+}
+.ticketRezervation .collapseBody .card-body .arrive_date span {
+  font-weight: bold;
+}
+
+.bordertop {
+  border: 1px solid rgb(31, 148, 183);
+  padding: 2rem 1rem;
+  background-color: rgb(31, 148, 183);
+  color: white;
+  word-spacing: 5px;
+  margin-top: 1px;
+  text-align: center;
+  position: relative;
+}
+
+.bordertop::after {
+  content: "";
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  background-color: rgb(31, 148, 183);
+  bottom: -32px;
+  left: 49%;
+  border-top: rgb(31, 148, 183) solid 2px;
+  border-left: rgb(31, 148, 183) solid 2px;
+  transform: rotate(223deg);
+  border-radius: 5px;
+}
+
+.accordion {
+  margin-top: 31px;
+}
+.accordion .accordion-item {
+  background-color: rgb(241, 242, 248);
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .result {
+  color: gray;
+  font-size: 17px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .result .blue {
+  color: rgb(95, 176, 203);
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .customs .edit {
+  font-size: 18px;
+  color: rgb(95, 176, 203);
+  font-weight: 600;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .customs .about {
+  font-size: 18px;
+  color: rgb(197, 198, 200);
+  border-bottom: 1px solid rgb(197, 198, 200);
+  margin-top: 21px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .customs .about p {
+  color: gray;
+}
+.accordion .accordion-item .aboutfly {
+  color: gray;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.accordion .accordion-item .fly p {
+  color: rgb(95, 176, 203);
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.accordion .accordion-item .changeFly {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: gray;
+  margin-bottom: 2rem;
+}
+.accordion .accordion-item .base {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: gray;
+}
+.accordion .accordion-item .base .vl_line {
+  width: 2px;
+  height: 42px;
+  background-color: #aeaeae;
+  top: -5px;
+  margin: 0 1rem;
+  position: relative;
+}
+.accordion .accordion-item .base .vl_line::after {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  bottom: -8px;
+  left: -3px;
+}
+.accordion .accordion-item .base .vl_line::before {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+}
+
+.accordion-header .accordion-button {
+  background-color: white;
+}
+.accordion-header .accordion-button .service {
+  word-spacing: 12px;
+}
+.accordion-header .accordion-button .ticketavia {
+  word-spacing: 4rem;
+}
+.accordion-header .accordion-button p {
+  color: rgb(242, 212, 157);
+  font-weight: bold;
+  font-size: 19px;
+}
+.accordion-header .accordion-button p span {
+  color: rgb(95, 176, 203);
+}
+
+.navbarbottom {
+  display: inline-flex;
+  margin-top: 4rem;
+  position: relative;
+}
+.navbarbottom li {
+  list-style: none;
+}
+.navbarbottom li .gray {
+  color: gray;
+}
+.navbarbottom li a {
+  text-decoration: none;
+  color: rgb(111, 186, 209);
+}
+.navbarbottom li + li::before {
+  content: "❯";
+  margin: 11px;
+  color: rgb(111, 186, 209);
+}
+
+.navbarbottom::after {
+  content: "";
+  height: 3px;
+  width: 47%;
+  background-color: rgb(31, 148, 183);
+  bottom: -5px;
+  position: absolute;
+}
+
+.navbarbottom::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: gray;
+  bottom: -5px;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .navbarbottom {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .navbarbottom::before {
+    width: 83%;
+  }
+  .ticketRezervation form .fin {
+    font-size: 8px;
+  }
+  .ticketRezervation .ticket {
+    text-align: center;
+  }
+  .arrive_date .line {
+    display: block;
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */

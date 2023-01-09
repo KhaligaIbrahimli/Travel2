@@ -1,0 +1,146 @@
+.additionalbox {
+  margin-top: 10px;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content {
+  height: 451px;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .checktaste {
+  margin: -6rem 9rem;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .checktaste .red {
+  color: rgb(227, 61, 61);
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .checktaste p i {
+  letter-spacing: 7px;
+  color: rgb(68, 226, 83);
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .accordionmodal {
+  margin-top: -34px;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .accordionmodal h2 button {
+  background-color: rgb(31, 148, 183);
+  color: white;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .accordionmodal .accordion-item .accordion-body {
+  background-color: rgb(33, 176, 218);
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-body .accordionmodal .accordion-item .accordion-body p {
+  color: white;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  border: none;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-header {
+  border: none;
+  justify-content: left;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-header .tasteheader {
+  margin: 6rem 9rem;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-header .information {
+  padding: 5px;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-header .information p {
+  margin-bottom: 0;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .modal-header .information span {
+  font-size: 11px;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .height {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(33, 176, 218);
+  font-size: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.additionalbox .container .modalfade .modal-dialog .modal-content .height p {
+  margin: 10px;
+  color: rgb(243, 195, 98);
+}
+
+.modalbtn {
+  background: rgb(31, 148, 183);
+}
+.modalbtn .btnchoices {
+  margin: 3rem 1rem;
+}
+.modalbtn .btnchoices p {
+  border: 1px solid rgb(241, 182, 64);
+  color: rgb(241, 182, 64);
+}
+.modalbtn .baggagebox {
+  color: rgb(241, 182, 64);
+}
+.modalbtn .imgicon {
+  width: 91px;
+}
+.modalbtn .imgicon img {
+  width: 100%;
+}
+
+.checkedtransportation {
+  margin-top: 4rem;
+}
+.checkedtransportation .container .checked {
+  border: 1px solid rgb(32, 148, 183);
+  padding: 1rem;
+}
+.checkedtransportation .container .checked .airline .transportation .blue {
+  color: rgb(68, 166, 195);
+  font-size: 21px;
+}
+.checkedtransportation .container .checked .airline .transportation .gray {
+  color: rgb(169, 169, 169);
+}
+.checkedtransportation .container .checked .form-check {
+  padding-left: 7.5em;
+}
+.checkedtransportation .container .checked .form-check .form-check-label p {
+  color: rgb(169, 169, 169);
+}
+.checkedtransportation .container .checked .imgsms {
+  margin-top: 7px;
+}
+.checkedtransportation .container .checked .imgsms img {
+  width: 50px;
+}
+
+.payment {
+  margin-top: 3rem;
+}
+.payment .container .form-check .form-check-label:hover {
+  background-color: rgb(31, 148, 183);
+  color: white;
+}
+.payment .container .form-check .clickinput {
+  margin-left: -2.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.payment .container .form-check .clickinput:checked {
+  background-color: rgb(241, 182, 64);
+  border-color: rgb(241, 182, 64);
+}
+
+@media screen and (max-width: 915px) and (min-width: 360px) {
+  .additionalbox .modalbtn .imgicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    margin-bottom: 23px;
+  }
+}
+@media screen and (max-width: 1180px) and (min-width: 768px) {
+  .additionalbox .modalbtn .imgicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 23px;
+  }
+}/*# sourceMappingURL=additionalservices.css.map */

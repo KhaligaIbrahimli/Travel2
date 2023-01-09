@@ -1,0 +1,58 @@
+.navbarTop{
+    .navbar{
+        .navbar-collapse{
+            button{
+                border-radius: 20px;
+                
+}
+            ul{
+                width: 100%;
+                .nav-item{
+                    .nav-link{
+                        color: black;
+                    }
+                }
+            }
+        }
+        .navbar-brand{
+            img{
+                width: 131px;
+                height: 77px;
+            }
+        }
+    }
+}
+.footer{
+    margin-top: 2rem;
+    background-color: black;
+    .footermenu{
+        padding: 2rem 1rem;
+        .imgtravel{
+            width: 156px;
+            height: 68px;
+            margin-top: 1rem;
+            img{
+                width: 100%;
+            }
+        }
+        
+        p{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    
+    }
+
+   }
+
+   @media screen and (max-width: 600px){
+    .footer{
+        .footermenu{
+            .imgtravel{
+                margin-bottom: 3rem;
+            }
+        }
+    }
+   }
